@@ -6,7 +6,7 @@ export default function Main() {
     return (
       <div>
         <Router>
-          <Route exact path='/' component={NameForm}/>
+          <Route exact path='/reciepe_search_app' component={NameForm}/>
         </Router>
       </div>
     );
